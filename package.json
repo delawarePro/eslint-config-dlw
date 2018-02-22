@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-dlw",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "An ESLint config used by the JavaScript developers at Delaware Consulting",
   "main": "index.js",
   "scripts": {
@@ -9,13 +9,13 @@
     "lint:unused": "eslint-find-rules --unused",
     "test": "jest",
     "test:watch": "jest --watch",
-    "test:cov": "jest --coverage && codecov",
+    "test:cov": "jest --coverage",
     "prepublish": "npm run pretty && npm run lint && npm run test",
     "pretty": "prettier --single-quote --trailing-comma es5 --write rules/*.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Stvenoo/eslint-config-dlw"
+    "url": "https://github.com/delawarePro/eslint-config-dlw"
   },
   "keywords": [
     "eslint",
@@ -23,14 +23,13 @@
     "config",
     "javascript"
   ],
-  "author": "Steven Van Eenoo",
+  "author": "delaware BeLux",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Stvenoo/eslint-config-dlw/issues"
+    "url": "https://github.com/delawarePro/eslint-config-dlw/issues"
   },
-  "homepage": "https://github.com/Stvenoo/eslint-config-dlw",
+  "homepage": "https://github.com/delawarePro/eslint-config-dlw",
   "devDependencies": {
-    "codecov": "^1.0.1",
     "eslint": "^4.7.2",
     "eslint-find-rules": "^3.1.1",
     "eslint-plugin-import": "^2.7.0",
